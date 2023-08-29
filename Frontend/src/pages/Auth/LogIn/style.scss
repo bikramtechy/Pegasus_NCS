@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif !important;
+  color: #616161;
+  font-size: 16px;
+}
+a {
+  text-decoration: unset !important;
+}
+
+a:hover {
+  color: unset;
+}
+
+ul {
+  padding-left: 0 !important;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Inter", sans-serif !important;
+}
+
+.loginBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+.LoginContainer {
+  overflow: unset !important;
+  position: relative;
+  width: 700px;
+  margin: 38px auto;
+  padding: 40px 60px;
+  box-shadow: 0px 1px 20px rgba(61, 61, 61, 0.2);
+  border-radius: 20px;
+}
+.LoginHeaderContainer {
+  text-align: center;
+}
+.LoginHeaderContainer h4 {
+  font-weight: 600;
+  font-size: 42px;
+  color: #333333;
+  margin-bottom: 12px;
+}
+.LoginHeaderContainer p {
+  font-size: 18px;
+  color: #797878;
+}
+
+.LoginInputContainer {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.LoginInputs {
+  margin-bottom: 30px;
+}
+.LoginInputs p {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.LoginButton {
+  background: #32cd32 !important;
+  font-size: 18px;
+  color: #fff;
+  padding: 8px 20px;
+  width: 100%;
+}
+.btmRow {
+  text-align: center;
+}
+
+.anchorText {
+  color: #32cd32;
+}
+
+.HeartImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+}
+
+.heartIcon {
+  position: absolute;
+  bottom: -14px;
+  left: -36px;
+  box-shadow: 8.03294px 24.9914px 86.5773px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.plusIcon {
+  position: absolute;
+  top: -54px;
+  left: -36px;
+  box-shadow: 8.03294px 24.9914px 86.5773px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.stethIcon {
+  position: absolute;
+  bottom: -39px;
+  right: -34px;
+  box-shadow: 8.03294px 24.9914px 86.5773px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.ellipseIcon {
+  position: absolute;
+  top: -204px;
+  right: -251px;
+  z-index: -2;
+}
+
+.smallCircle {
+  position: absolute;
+  top: 81px;
+  right: -179px;
+  z-index: -1;
+}
+.smallLightCircle {
+  position: absolute;
+  top: 81px;
+  right: -191px;
+  z-index: -1;
+}
+
+// Responsive
+
+@media (max-width: 991.98px) {
+  .ellipseIcon {
+    top: -154px;
+    right: -161px;
+    width: 420px;
+  }
+}
+@media (max-width: 768.98px) {
+  .LoginContainer {
+    width: 600px;
+  }
+  .ellipseIcon {
+    top: -114px;
+    right: -81px;
+    width: 320px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .LoginContainer {
+    width: 420px;
+    padding: 30px;
+  }
+  .plusIcon {
+    width: 60px;
+    top: -24px;
+    left: -26px;
+  }
+  .heartIcon {
+    width: 60px;
+    bottom: -14px;
+    left: -26px;
+  }
+  .stethIcon {
+    width: 60px;
+    bottom: -19px;
+  }
+  .ellipseIcon {
+    top: -104px;
+    right: -91px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 425.98px) {
+  .LoginContainer {
+    width: 380px;
+  }
+  .plusIcon {
+    display: none;
+  }
+  .heartIcon {
+    display: none;
+  }
+  .stethIcon {
+    display: none;
+  }
+  .ellipseIcon {
+    display: none;
+  }
+}
+@media (max-width: 375.98px) {
+  .loginBox {
+    padding: 20px;
+  }
+}
